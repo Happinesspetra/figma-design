@@ -1,0 +1,593 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #09071a;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+.imgg {
+  position: relative;
+  top: 3px;
+}
+
+.logo{
+  position: relative;
+  top: 7px;
+}
+
+.logo img{  
+   max-width: 12%;
+}
+
+.secondary-button img{
+  max-width: 12%;
+}
+
+.footer-section-img img{
+  max-width: 20%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero-container {
+  padding: 32px;
+}
+
+nav {
+  padding: 10px 32px;
+  border-radius: 30px;
+  background: #141125;
+  display: flex;
+  justify-content: space-between;
+  font-family: "GT Walsheim Pro", Arial, sans-serif;
+  font-size: 18px;
+}
+
+.nav-links-sign {
+  text-decoration: none;
+  padding: 0px 22.27px;
+  color: #ffffff;
+}
+
+.nav-links {
+margin: 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0px 10px;
+}
+
+.cta-button {
+  background-color: #4b42e5;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.hero {
+  margin: 80px 100px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.secondary-button {
+  background-color: transparent;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.gallery-container {
+  position: relative;
+  left: 100px;
+}
+
+.gallery {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.image-container, .image-container-2 {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.image-container-2 {
+  top: 50px;
+}
+
+.image-container img, .image-container-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  background: linear-gradient(to top, #09071a, transparent);
+}
+
+.hero-vid img {
+  border-radius: 20px;
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  margin-left: 150px;
+}
+
+.payment-container {
+  width: 100%;
+  height: 100vh;
+}
+
+header {
+    margin: 80px 50px;
+    width: 584px;
+  height: 128px;
+  top: 2180px;
+  left: 70px;
+  font-family: GT Walsheim Pro;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 63.61px;
+  text-align: left;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.payment-subtitle {
+    position: relative;
+    bottom: 170px;
+    margin: -10px 760px;
+    width: 584px;
+    height: 128px;
+    font-family: GT Walsheim Pro;
+    font-size: 21.38px;
+    font-weight: 300;
+    line-height: 37.41px;
+}
+
+.grid {
+  position: relative;
+  bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.grid-item-1 {
+    border-radius: 10px;
+    margin: 0px 30px;
+  width: 671px;
+  height: 500px;
+  background-color:#141125;
+}
+
+.grid-item-1 h2 {
+  position: relative;
+  left: 100px;
+  font-family: GT Walsheim Pro;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 50.89px;
+}
+
+.grid-item-1 p {
+  position: relative;
+  left: 100px;
+  font-size: 16px;
+    width: 558px;
+    height: 191px;
+}
+
+.first-grid img {
+  border-radius: 20px;
+  position: relative;
+  left: 100px;
+  bottom: 100px;
+  width: 400px;
+  height: 250px;
+}
+
+.grid-item-2 .grid-item-3, p{
+  font-size: 14px;
+}
+
+.grid-item-2 .grid-item-3, h2{
+  font-size: 16px;
+}
+
+.grid-item-2 {
+    padding: 20px;
+    border-radius: 10px;
+  width: 390px;
+  height: 200px;
+  background-color:  #141125;
+}
+
+.grid-item-3 {
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 750px;
+    position: relative;
+    bottom:343px;
+    width: 390px;
+    height: 200px;
+    background-color:  #141125;
+  }
+
+.grid-img img {
+  width: 180px;
+  height: 94px;
+  top: 2461px;
+  left: 772px;
+  gap: 0px;
+  border-radius: 4px 0px 0px 0px;
+  border: 9px 0px 0px 0px;
+}
+
+.testimonial-container {
+  width: 100%;
+}
+
+.testimonial-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 180px;
+  height: 70vh;
+}
+
+.testimonial-content {
+  flex: 1;
+  padding: 0 40px;
+}
+
+.customer-count {
+  font-family: "GT Walsheim Pro", Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.27;
+  text-align: left;
+}
+
+.testimonial-subtitle {
+  font-size: 18px;
+  color: #8b8b8b;
+  margin: 20px 0;
+  line-height: 1.75;
+}
+
+.testimonials {
+  flex: 1;
+  max-width: 45%;
+}
+
+.cta-button-test {
+  background-color: #4b42e5;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.main-test {
+  width: 100%;
+  max-width: 350px;
+  background-color: #141125;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+.testimonial-card {
+  width: 90%;
+  background-color: #2A263F;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.testimonial-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.testimonial-avatar {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.testimonial-text {
+  font-size: 14px;
+  color: #8b8b8b;
+  line-height: 1.5;
+}
+
+.cta-section {
+  margin: 50px;
+  background-color: #141125;
+  border-radius: 10px;
+  padding: 40px;
+  text-align: center;
+}
+
+.cta-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #09071a;
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+hr{
+  border-color: #4a4949;
+  margin: 50px;
+  height: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-section {
+  position: relative;
+  bottom: 20px;
+  right: 90px;
+}
+
+.footer-section-img {
+  margin-bottom: 50px;
+}
+
+.footer-section-img p {
+  margin-top: 30px;
+  font-family: GT Walsheim Pro;
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: -0.20454545319080353px;
+} 
+
+.footer-section h3 {
+  font-family: "GT Walsheim Pro", Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.32;
+  margin-bottom: 15px;
+}
+
+.footer-section p,
+.footer-section ul {
+  font-family: "GT Walsheim Pro", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.32;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+  line-height: 30px;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.social-icons img {
+  width: 10px;
+  height: 15px;
+}
+
+.bottom-divs{
+  margin-top: 100px;
+}
+
+.bottom-bar{
+  margin-left: 70px;
+}
+
+.bottom-span{
+  float: right;
+  margin-right: 150px;
+}
+
+.term-class{
+  padding: 50px;
+}
+
+/* Existing styles remain unchanged */
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+  .hero-container {
+    padding: 16px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+  }
+
+  .nav-links {
+    margin: 16px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links a {
+    padding: 8px 0;
+  }
+
+  .hero {
+    margin: 40px 20px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  .hero-subtitle {
+    font-size: 16px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gallery-container {
+    left: 0;
+  }
+
+  .gallery {
+    justify-content: center;
+  }
+
+  .hero-vid img {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .payment-container {
+    height: auto;
+  }
+
+  header {
+    margin: 40px 20px;
+    width: auto;
+    font-size: 36px;
+  }
+
+  .payment-subtitle {
+    position: static;
+    margin: 20px;
+    width: auto;
+    font-size: 16px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .grid-item-1, .grid-item-2, .grid-item-3 {
+    width: auto;
+    margin: 0 20px;
+  }
+
+  .grid-item-3 {
+    position: static;
+    margin-left: 20px;
+  }
+
+  .first-grid img {
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .testimonial-section {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-top: 40px;
+  }
+
+  .testimonial-content {
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .testimonials {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+
+  .main-test {
+    max-width: 100%;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-section {
+    margin-bottom: 30px;
+    right: 0;
+  }
+
+  .social-icons {
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .bottom-divs {
+    text-align: center;
+  }
+
+  .bottom-bar, .bottom-span {
+    float: none;
+    margin: 10px 0;
+  }
+}
